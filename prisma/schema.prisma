@@ -13,10 +13,11 @@ datasource db {
   url       = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
 }
+
 // local db
 // datasource db {
 //   provider = "postgresql"
-//   url      = env("DATABASE_URL")
+//   url      = env("DATABASE_URL_LOCAL")
 // }
 
 model User {
